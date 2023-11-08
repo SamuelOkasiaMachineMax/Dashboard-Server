@@ -1,0 +1,1586 @@
+[
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "313GC",
+            "EquipmentID": "EX15T316",
+            "SerialNumber": "RHB20373"
+        },
+        "Location": {
+            "Latitude": 51.53057,
+            "Longitude": -0.2511,
+            "datetime": "2023-08-15T13:13:19Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 94.3,
+            "datetime": "2023-08-15T13:13:19Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 256,
+            "datetime": "2023-08-15T13:13:19Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 1879,
+            "datetime": "2023-08-15T13:13:19Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 4,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "308-07CR",
+            "EquipmentID": "EX9T247",
+            "SerialNumber": "GW802782"
+        },
+        "Location": {
+            "Latitude": 51.60979,
+            "Longitude": -1.10445,
+            "datetime": "2023-08-14T18:38:51Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 600.2,
+            "datetime": "2023-08-14T18:38:51Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1201,
+            "datetime": "2023-08-14T18:38:51Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 4486,
+            "datetime": "2023-08-14T18:38:51Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "JCB",
+            "Model": "Unknown",
+            "EquipmentID": "TH4M35",
+            "SerialNumber": "2962039"
+        },
+        "Location": {
+            "Latitude": 51.558629,
+            "Longitude": -0.270201,
+            "datetime": "2023-08-15T14:58:49Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 816.432777777778,
+            "datetime": "2023-08-15T14:58:47Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Bomag",
+            "Model": "BW120AD",
+            "EquipmentID": "RO3T52 - BW120",
+            "SerialNumber": "961880631677",
+            "PIN": "961880631677"
+        },
+        "Location": {
+            "Latitude": 52.22727,
+            "Longitude": -1.376797,
+            "datetime": "2023-08-15T15:15:13Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 670.6,
+            "datetime": "2023-08-15T15:15:13Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "315GC",
+            "EquipmentID": "EX15TZ245",
+            "SerialNumber": "ZCP30069"
+        },
+        "Location": {
+            "Latitude": 52.67574,
+            "Longitude": -2.03903,
+            "datetime": "2023-08-15T10:53:28Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 2.8,
+            "datetime": "2023-08-15T10:49:16Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 6,
+            "datetime": "2023-08-15T10:53:28Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 37,
+            "datetime": "2023-08-15T10:49:16Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "313GC",
+            "EquipmentID": "EX15T252",
+            "SerialNumber": "RHB20288"
+        },
+        "Location": {
+            "Latitude": 53.43666,
+            "Longitude": -2.42038,
+            "datetime": "2023-08-15T14:43:30Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 117.5,
+            "datetime": "2023-08-15T14:42:13Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 348.9,
+            "datetime": "2023-08-15T14:43:30Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 2498,
+            "datetime": "2023-08-15T14:42:13Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 7,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "305E2CR",
+            "EquipmentID": "EX5T142",
+            "SerialNumber": "H5M15048"
+        },
+        "Location": {
+            "Latitude": 51.51353,
+            "Longitude": -2.12083,
+            "datetime": "2023-08-15T14:32:15Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1444.7,
+            "datetime": "2023-08-15T14:32:15Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2022-03-31T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "John Deere",
+            "Model": "6155M",
+            "EquipmentID": "TK37 - 6155M",
+            "SerialNumber": "1L06155MVKK943323",
+            "PIN": "1L06155MVKK943323"
+        },
+        "Location": {
+            "Latitude": 52.354425,
+            "Longitude": -1.541327,
+            "datetime": "2023-08-15T15:07:49Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3700.73,
+            "datetime": "2023-08-15T15:07:49Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "313",
+            "EquipmentID": "EX15T179",
+            "SerialNumber": "JHR10258"
+        },
+        "Location": {
+            "Latitude": 52.4392,
+            "Longitude": -1.89377,
+            "datetime": "2023-08-15T15:01:10Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1322.6,
+            "datetime": "2023-08-15T15:01:10Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 2751.7,
+            "datetime": "2023-08-15T15:01:10Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 16732,
+            "datetime": "2023-08-15T15:01:10Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 9,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "BELL",
+            "Model": "B30E",
+            "EquipmentID": "DT30T220",
+            "SerialNumber": "B93A631EK03410730",
+            "PIN": "B93A631EK03410730"
+        },
+        "Location": {
+            "Latitude": 52.6911,
+            "Longitude": -1.7843,
+            "datetime": "2023-08-15T09:00:25Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 28.9,
+            "datetime": "2023-08-14T22:59:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 58.8,
+            "datetime": "2023-08-14T22:59:59Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 526,
+            "datetime": "2023-08-14T22:59:59Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Wacker Neuson",
+            "Model": "DV90",
+            "EquipmentID": "DVD9TS22 - DV90S",
+            "SerialNumber": "WNCD2402TPAL00685",
+            "PIN": "WNCD2402TPAL00685"
+        },
+        "Location": {
+            "Latitude": 51.125818,
+            "Longitude": -0.608803,
+            "datetime": "2023-08-15T15:21:14Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 328.02,
+            "datetime": "2023-08-15T15:21:26Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 2824.9,
+            "datetime": "2023-08-15T15:21:26Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "HITACHI",
+            "Model": "ZX140W-5B",
+            "EquipmentID": "remove",
+            "SerialNumber": "HCMLAA5ZT00060403"
+        },
+        "Location": {
+            "Latitude": 51.013928,
+            "Longitude": 4.459911,
+            "datetime": "2023-08-12T22:59:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 8375.6,
+            "datetime": "2023-08-12T22:59:59Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 49396,
+            "datetime": "2023-08-12T22:59:59Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 3,
+            "datetime": "2023-08-12T22:59:59Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Takeuchi",
+            "Model": "TB295W",
+            "EquipmentID": "RD9T19 - TB295W",
+            "SerialNumber": "190300577",
+            "PIN": "190300577"
+        },
+        "Location": {
+            "Latitude": 53.78474,
+            "Longitude": -1.520847,
+            "datetime": "2023-08-03T06:42:09Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3073.22,
+            "datetime": "2023-08-03T12:55:17Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "320",
+            "EquipmentID": "EX25T184",
+            "SerialNumber": "YCP20140"
+        },
+        "Location": {
+            "Latitude": 50.86389,
+            "Longitude": -0.00069,
+            "datetime": "2023-08-15T00:00:55Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1507.1,
+            "datetime": "2023-08-15T00:00:55Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3543.7,
+            "datetime": "2023-08-15T00:00:55Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 41982,
+            "datetime": "2023-08-15T00:00:55Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "320GC",
+            "EquipmentID": "EX25T343",
+            "SerialNumber": "JGY20257"
+        },
+        "Location": {
+            "Latitude": 52.81751,
+            "Longitude": -2.08101,
+            "datetime": "2023-08-15T11:37:38Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 5.6,
+            "datetime": "2023-08-15T11:37:38Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 9.9,
+            "datetime": "2023-08-15T11:37:38Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 65,
+            "datetime": "2023-08-15T11:37:38Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Wacker Neuson",
+            "Model": "DV90",
+            "EquipmentID": "DVD9T29 - DV90",
+            "SerialNumber": "WNCD2402JPAL00321",
+            "PIN": "WNCD2402JPAL00321"
+        },
+        "Location": {
+            "Latitude": 52.356648,
+            "Longitude": -1.529417,
+            "datetime": "2023-08-15T15:16:33Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3586.18,
+            "datetime": "2023-08-15T15:16:33Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "KOMTRAX",
+            "Model": "D85PXI-18E0",
+            "EquipmentID": "DZ7T05",
+            "SerialNumber": "25010"
+        },
+        "Location": {
+            "Latitude": 51.914169,
+            "Longitude": -0.558326,
+            "datetime": "2023-06-18T01:41:36Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 13.4,
+            "datetime": "2023-04-30T23:59:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 15.9,
+            "datetime": "2023-06-18T01:41:45Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 67,
+            "datetime": "2023-04-30T23:59:59Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-06-18T23:59:59Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "D5-17VP",
+            "EquipmentID": "DZ6N23",
+            "SerialNumber": "RG900612"
+        },
+        "Location": {
+            "Latitude": 53.84475,
+            "Longitude": -2.94896,
+            "datetime": "2023-08-15T14:56:17Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 577.1,
+            "datetime": "2023-08-15T14:55:40Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1924.4,
+            "datetime": "2023-08-15T14:56:17Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 22094,
+            "datetime": "2023-08-15T14:55:40Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 95,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "KOMTRAX",
+            "Model": "PC118MR-8",
+            "EquipmentID": "EX15TZ26",
+            "SerialNumber": "F00429"
+        },
+        "Location": {
+            "Latitude": 36.985833,
+            "Longitude": -5.560965,
+            "datetime": "2023-05-15T10:28:00Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 2642.9,
+            "datetime": "2023-05-15T23:59:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 5152.4,
+            "datetime": "2023-05-16T06:16:00Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-05-15T23:59:59Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Hydrema",
+            "Model": "912F",
+            "EquipmentID": "DT12T55 - 912F",
+            "SerialNumber": "14318",
+            "PIN": "14318"
+        },
+        "Location": {
+            "Latitude": 52.516078,
+            "Longitude": -1.720945,
+            "datetime": "2023-08-15T15:05:33Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 4725.5,
+            "datetime": "2023-08-15T15:05:33Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "320GC",
+            "EquipmentID": "EX25T291",
+            "SerialNumber": "JGY20019"
+        },
+        "Location": {
+            "Latitude": 51.56579,
+            "Longitude": -2.96527,
+            "datetime": "2023-08-14T23:35:53Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 442.1,
+            "datetime": "2023-08-14T23:35:53Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1006.3,
+            "datetime": "2023-08-14T23:35:53Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 9202,
+            "datetime": "2023-08-14T23:35:53Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Hitachi",
+            "Model": "ZX29U-3",
+            "EquipmentID": "EX3T21 - ZX29U",
+            "SerialNumber": "1NJ022016",
+            "PIN": "1NJ022016"
+        },
+        "Location": {
+            "Latitude": 40.86148,
+            "Longitude": 25.872278,
+            "datetime": "2023-08-05T23:12:53Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 4380.43,
+            "datetime": "2023-08-05T23:12:53Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "313GC",
+            "EquipmentID": "EX15T244",
+            "SerialNumber": "RHB20280"
+        },
+        "Location": {
+            "Latitude": 52.18124,
+            "Longitude": -0.90997,
+            "datetime": "2023-08-15T14:55:32Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 175.6,
+            "datetime": "2023-08-15T14:55:32Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 568.9,
+            "datetime": "2023-08-15T14:55:32Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 3997,
+            "datetime": "2023-08-15T14:55:32Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 16,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "JCB",
+            "Model": "540-140HiVis",
+            "EquipmentID": "TH14M35",
+            "SerialNumber": "2724597"
+        },
+        "Location": {
+            "Latitude": 53.382876,
+            "Longitude": -2.976092,
+            "datetime": "2023-08-15T05:10:15Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1361.77972222222,
+            "datetime": "2023-08-15T05:10:16Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3602.2,
+            "datetime": "2023-08-15T05:10:16Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 14574,
+            "datetime": "2023-08-15T05:10:16Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 3,
+            "datetime": "2023-08-13T23:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "302.7-07CR",
+            "EquipmentID": "EX3T149",
+            "SerialNumber": "CZ601480"
+        },
+        "Location": {
+            "Latitude": 52.57724,
+            "Longitude": 1.1442,
+            "datetime": "2023-04-14T07:12:02Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 36.9,
+            "datetime": "2023-04-14T07:12:02Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "KOMTRAX",
+            "Model": "PC290LC-11",
+            "EquipmentID": "EX30T14",
+            "SerialNumber": "K70078"
+        },
+        "Location": {
+            "Latitude": 51.852133,
+            "Longitude": 0.645632,
+            "datetime": "2023-07-02T13:18:43Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 2877.8,
+            "datetime": "2023-08-14T23:59:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 6350.8,
+            "datetime": "2023-08-14T23:55:33Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 83107,
+            "datetime": "2023-08-14T23:59:59Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 98,
+            "datetime": "2023-08-14T23:59:59Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "D5-17VP",
+            "EquipmentID": "DZ6N37",
+            "SerialNumber": "RG901345"
+        },
+        "Location": {
+            "Latitude": 52.65052,
+            "Longitude": -1.67549,
+            "datetime": "2023-04-19T08:44:06Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 42.7,
+            "datetime": "2023-04-19T08:44:06Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 205.2,
+            "datetime": "2023-04-19T08:44:06Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 3299,
+            "datetime": "2023-04-19T08:44:06Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 7,
+            "datetime": "2023-04-19T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Bobcat",
+            "Model": "E45",
+            "EquipmentID": "EX5T76 - E45",
+            "SerialNumber": "B3NR11162",
+            "PIN": "B3NR11162"
+        },
+        "Location": {
+            "Latitude": 51.557857,
+            "Longitude": -0.27071,
+            "datetime": "2023-06-13T01:54:00Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3800.43,
+            "datetime": "2023-06-20T19:50:41Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Thwaites",
+            "Model": "1t Thwaites Skiploader",
+            "EquipmentID": "DU1T01 - Skiploader",
+            "SerialNumber": "SLCM201Z1317C5622",
+            "PIN": "SLCM201Z1317C5622"
+        },
+        "Location": {
+            "Latitude": 52.896853,
+            "Longitude": -2.149635,
+            "datetime": "2022-11-20T22:58:01Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1565.02,
+            "datetime": "2022-11-20T22:58:01Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "320",
+            "EquipmentID": "EX25T254",
+            "SerialNumber": "KFE20069"
+        },
+        "Location": {
+            "Latitude": 52.09034,
+            "Longitude": -1.19931,
+            "datetime": "2023-08-15T00:00:54Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 999.3,
+            "datetime": "2023-08-15T00:00:54Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1778.9,
+            "datetime": "2023-08-15T00:00:54Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 13669,
+            "datetime": "2023-08-15T00:00:54Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "325",
+            "EquipmentID": "EX25TZ107",
+            "SerialNumber": "TEL10758"
+        },
+        "Location": {
+            "Latitude": 51.91479,
+            "Longitude": -0.55893,
+            "datetime": "2023-08-14T23:40:56Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1125.1,
+            "datetime": "2023-08-14T23:40:56Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1813.9,
+            "datetime": "2023-08-14T23:40:56Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 12119,
+            "datetime": "2023-08-14T23:40:56Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "JCB",
+            "Model": "540-170",
+            "EquipmentID": "TH17M17",
+            "SerialNumber": "2575152"
+        },
+        "Location": {
+            "Latitude": 51.667212,
+            "Longitude": -0.399397,
+            "datetime": "2023-08-15T12:55:26Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1051.87944444444,
+            "datetime": "2023-08-15T12:55:24Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3841.95,
+            "datetime": "2023-08-15T12:55:24Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 16917,
+            "datetime": "2023-08-15T12:55:24Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 3,
+            "datetime": "2023-08-14T23:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "CS66B",
+            "EquipmentID": "RO13T81",
+            "SerialNumber": "D6600241"
+        },
+        "Location": {
+            "Latitude": 53.27428,
+            "Longitude": -8.0421,
+            "datetime": "2023-08-15T13:18:59Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 29.3,
+            "datetime": "2023-08-15T13:18:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 100.5,
+            "datetime": "2023-08-15T13:18:59Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 1059,
+            "datetime": "2023-08-15T13:18:59Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 22,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "KOMTRAX",
+            "Model": "PC138US-11",
+            "EquipmentID": "EX15TZ151",
+            "SerialNumber": "F51501"
+        },
+        "Location": {
+            "Latitude": 53.649466,
+            "Longitude": -1.783832,
+            "datetime": "2023-08-15T01:24:05Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1368.5,
+            "datetime": "2023-08-14T23:59:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3085.1,
+            "datetime": "2023-08-14T23:55:15Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 19448,
+            "datetime": "2023-08-14T23:59:59Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T23:59:59Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "JCB",
+            "Model": "540-170",
+            "EquipmentID": "TH17M53",
+            "SerialNumber": "3241368"
+        },
+        "Location": {
+            "Latitude": 52.144876,
+            "Longitude": -1.274259,
+            "datetime": "2023-08-15T10:04:18Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 26.3505555555556,
+            "datetime": "2023-08-15T10:08:25Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 129.1,
+            "datetime": "2023-08-15T10:08:25Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 628,
+            "datetime": "2023-08-15T10:08:25Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 1,
+            "datetime": "2023-08-07T23:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "336",
+            "EquipmentID": "EX40T103",
+            "SerialNumber": "WFF20210"
+        },
+        "Location": {
+            "Latitude": 55.89096,
+            "Longitude": -4.3911,
+            "datetime": "2023-08-15T14:32:38Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 529.9,
+            "datetime": "2023-08-15T14:32:38Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1423.6,
+            "datetime": "2023-08-15T14:32:38Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 28245,
+            "datetime": "2023-08-15T14:32:38Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 94,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "313",
+            "EquipmentID": "EX15T266",
+            "SerialNumber": "NPY20287"
+        },
+        "Location": {
+            "Latitude": 51.57184,
+            "Longitude": -0.44336,
+            "datetime": "2023-08-15T15:02:08Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 378,
+            "datetime": "2023-08-15T15:01:15Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 753.5,
+            "datetime": "2023-08-15T15:02:08Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 5107,
+            "datetime": "2023-08-15T15:01:15Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 65,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "320",
+            "EquipmentID": "EX25T195",
+            "SerialNumber": "MYK10064"
+        },
+        "Location": {
+            "Latitude": 52.62361,
+            "Longitude": 0.06807,
+            "datetime": "2023-08-15T14:53:07Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 2108.4,
+            "datetime": "2023-08-15T15:03:28Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3981.3,
+            "datetime": "2023-08-15T14:53:07Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 36339,
+            "datetime": "2023-08-15T15:03:28Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 65,
+            "datetime": "2023-08-11T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "336",
+            "EquipmentID": "EX40T93",
+            "SerialNumber": "WFF20149"
+        },
+        "Location": {
+            "Latitude": 51.57531,
+            "Longitude": -0.46338,
+            "datetime": "2023-08-15T14:59:03Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 786.9,
+            "datetime": "2023-08-15T14:59:03Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 2127.5,
+            "datetime": "2023-08-15T14:59:03Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 40705,
+            "datetime": "2023-08-15T14:59:03Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 5,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "14-15",
+            "EquipmentID": "GR004",
+            "SerialNumber": "EN400185"
+        },
+        "Location": {
+            "Latitude": 51.92773,
+            "Longitude": -1.00369,
+            "datetime": "2023-08-15T14:55:44Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 441.3,
+            "datetime": "2023-08-15T14:55:44Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1731.8,
+            "datetime": "2023-08-15T14:55:44Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 32289,
+            "datetime": "2023-08-15T14:55:44Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 153,
+            "datetime": "2023-08-04T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "308-07CR",
+            "EquipmentID": "EX9T182",
+            "SerialNumber": "GW800139"
+        },
+        "Location": {
+            "Latitude": 51.15593,
+            "Longitude": 1.30119,
+            "datetime": "2023-08-15T14:57:06Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3752.3,
+            "datetime": "2023-08-15T14:57:06Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 12869,
+            "datetime": "2023-08-15T14:57:06Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 21,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "JCB",
+            "Model": "535-95",
+            "EquipmentID": "TH9M39",
+            "SerialNumber": "3060877"
+        },
+        "Location": {
+            "Latitude": 51.826579,
+            "Longitude": -0.867155,
+            "datetime": "2023-08-15T11:09:58Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 237.019166666667,
+            "datetime": "2023-08-15T11:09:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1251.95,
+            "datetime": "2023-08-15T11:09:59Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 2301,
+            "datetime": "2023-08-15T11:09:59Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 4,
+            "datetime": "2023-08-14T23:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "308E2CRSB",
+            "EquipmentID": "HCE732902",
+            "SerialNumber": "FJX10622"
+        },
+        "Location": {
+            "Latitude": 51.675973,
+            "Longitude": -4.990255,
+            "datetime": "2023-08-14T23:39:19Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3326.9,
+            "datetime": "2023-08-14T23:39:19Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "John Deere",
+            "Model": "6155R",
+            "EquipmentID": "TK137",
+            "SerialNumber": "187975",
+            "PIN": "187975"
+        },
+        "Location": {
+            "Latitude": 50.83713,
+            "Longitude": -1.377378,
+            "datetime": "2023-08-15T15:19:29Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 154.73,
+            "datetime": "2023-08-15T15:19:29Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "336",
+            "EquipmentID": "EX40T102",
+            "SerialNumber": "WFF20217"
+        },
+        "Location": {
+            "Latitude": 52.12945,
+            "Longitude": -1.2489,
+            "datetime": "2023-08-15T14:55:40Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 982.9,
+            "datetime": "2023-08-15T14:55:40Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1924.4,
+            "datetime": "2023-08-15T14:55:40Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 28351,
+            "datetime": "2023-08-15T14:55:40Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 132,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "KOMTRAX",
+            "Model": "D65PXI-18E0",
+            "EquipmentID": "DZ6T71",
+            "SerialNumber": "96054"
+        },
+        "Location": {
+            "Latitude": 52.519119,
+            "Longitude": -1.721378,
+            "datetime": "2023-08-14T01:44:34Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 655.3,
+            "datetime": "2023-08-11T23:59:59Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1806.7,
+            "datetime": "2023-08-15T07:46:24Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 30996,
+            "datetime": "2023-08-11T23:59:59Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T23:59:59Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "313",
+            "EquipmentID": "EX15T159",
+            "SerialNumber": "JHR10176"
+        },
+        "Location": {
+            "Latitude": 51.5412,
+            "Longitude": -0.02527,
+            "datetime": "2023-08-15T11:51:26Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1003.8,
+            "datetime": "2023-08-15T11:51:26Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3020.7,
+            "datetime": "2023-08-15T11:51:26Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 28717,
+            "datetime": "2023-08-15T11:51:26Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 18,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Bobcat",
+            "Model": "E26",
+            "EquipmentID": "EX3T73 - E26",
+            "SerialNumber": "ACRA16389",
+            "PIN": "ACRA16389"
+        },
+        "Location": {
+            "Latitude": 52.21162,
+            "Longitude": 0.181475,
+            "datetime": "2023-08-15T15:15:40Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 2704.6,
+            "datetime": "2023-08-15T15:15:40Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "JCB",
+            "Model": "540-170",
+            "EquipmentID": "TH17M28",
+            "SerialNumber": "2785531"
+        },
+        "Location": {
+            "Latitude": 53.248633,
+            "Longitude": -1.362314,
+            "datetime": "2023-08-15T14:02:31Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 1148.71416666667,
+            "datetime": "2023-08-15T14:02:28Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3498.2,
+            "datetime": "2023-08-15T14:02:28Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 16005,
+            "datetime": "2023-08-15T14:02:28Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 8,
+            "datetime": "2023-08-14T23:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "320GC",
+            "EquipmentID": "EX25T272",
+            "SerialNumber": "JGY20025"
+        },
+        "Location": {
+            "Latitude": 52.19007,
+            "Longitude": -0.9158,
+            "datetime": "2023-08-14T23:42:54Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 983.3,
+            "datetime": "2023-08-14T23:42:54Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1904.8,
+            "datetime": "2023-08-14T23:42:54Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 14989,
+            "datetime": "2023-08-14T23:42:54Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "320GC",
+            "EquipmentID": "EX25T284",
+            "SerialNumber": "JGY20039"
+        },
+        "Location": {
+            "Latitude": 52.66578,
+            "Longitude": 1.10115,
+            "datetime": "2023-08-14T23:44:48Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 846.9,
+            "datetime": "2023-08-14T23:44:48Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1621,
+            "datetime": "2023-08-14T23:44:48Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 13996,
+            "datetime": "2023-08-14T23:44:48Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Wacker Neuson",
+            "Model": "DV90",
+            "EquipmentID": "DVD9T82 - DV90",
+            "SerialNumber": "WNCD2402CPAL02054",
+            "PIN": "WNCD2402CPAL02054"
+        },
+        "Location": {
+            "Latitude": 52.49062,
+            "Longitude": -1.864178,
+            "datetime": "2023-08-15T15:12:37Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 65.89,
+            "datetime": "2023-08-14T08:19:33Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 255.15,
+            "datetime": "2023-08-15T15:12:37Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Hydrema",
+            "Model": "912F",
+            "EquipmentID": "DT12T26 - Hydrema",
+            "SerialNumber": "12929",
+            "PIN": "12929"
+        },
+        "Location": {
+            "Latitude": 51.82604,
+            "Longitude": -0.866005,
+            "datetime": "2023-08-15T15:08:42Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 6431.5,
+            "datetime": "2023-08-15T15:08:42Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "313",
+            "EquipmentID": "EX15T181",
+            "SerialNumber": "JHR10272"
+        },
+        "Location": {
+            "Latitude": 53.43115,
+            "Longitude": -2.11653,
+            "datetime": "2023-08-15T14:56:46Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 768.1,
+            "datetime": "2023-08-15T14:55:15Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 2138.3,
+            "datetime": "2023-08-15T14:56:46Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 16292,
+            "datetime": "2023-08-15T14:55:15Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 25,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Wacker Neuson",
+            "Model": "DV90",
+            "EquipmentID": "DVD9T13 - DV90",
+            "SerialNumber": "WNCD2402CPAL00191",
+            "PIN": "WNCD2402CPAL00191"
+        },
+        "Location": {
+            "Latitude": 53.327298,
+            "Longitude": -1.990973,
+            "datetime": "2023-08-15T15:06:34Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 2863.33,
+            "datetime": "2023-08-15T15:06:34Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "312E",
+            "EquipmentID": "EX15T36",
+            "SerialNumber": "PZL00872"
+        },
+        "Location": {
+            "Latitude": 53.17598,
+            "Longitude": -2.252899,
+            "datetime": "2020-07-07T15:39:23Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 2621.75,
+            "datetime": "2020-07-07T15:39:23Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 5842.7,
+            "datetime": "2020-07-07T15:39:23Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 42425,
+            "datetime": "2020-07-07T15:39:23Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 50,
+            "datetime": "2020-07-07T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Thwaites",
+            "Model": "MACH2080",
+            "EquipmentID": "DU3TS34 - 3T Dumper",
+            "SerialNumber": "SLCM20802104F4631",
+            "PIN": "SLCM20802104F4631"
+        },
+        "Location": {
+            "Latitude": 51.45262,
+            "Longitude": -2.586708,
+            "datetime": "2023-08-15T15:22:19Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1,
+            "datetime": "2023-08-15T15:22:19Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "CAT",
+            "Model": "308-07CR",
+            "EquipmentID": "EX9T280",
+            "SerialNumber": "GW803178"
+        },
+        "Location": {
+            "Latitude": 50.92174,
+            "Longitude": -1.28102,
+            "datetime": "2023-08-14T23:30:45Z"
+        },
+        "CumulativeIdleHours": {
+            "Hour": 780.7,
+            "datetime": "2023-08-14T23:30:45Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 1397.1,
+            "datetime": "2023-08-14T23:30:45Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 5172,
+            "datetime": "2023-08-14T23:30:45Z"
+        },
+        "FuelUsedLast24": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 0,
+            "datetime": "2023-08-14T00:00:00Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Bobcat",
+            "Model": "E45",
+            "EquipmentID": "EX5T85 - E45",
+            "SerialNumber": "B3NR12045",
+            "PIN": "B3NR12045"
+        },
+        "Location": {
+            "Latitude": 51.503045,
+            "Longitude": -0.142727,
+            "datetime": "2023-08-15T14:46:14Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 3222.1,
+            "datetime": "2023-08-15T15:01:14Z"
+        }
+    },
+    {
+        "EquipmentHeader": {
+            "OEMName": "Hydrema",
+            "Model": "922G",
+            "EquipmentID": "DT20T19 - 15014",
+            "SerialNumber": "15014",
+            "PIN": "00000000000015014"
+        },
+        "Location": {
+            "Latitude": 56.430969,
+            "Longitude": -3.443229,
+            "datetime": "2023-08-15T15:01:10Z"
+        },
+        "CumulativeOperatingHours": {
+            "Hour": 2478,
+            "datetime": "2023-08-15T14:52:03Z"
+        },
+        "FuelUsed": {
+            "FuelUnits": "litre",
+            "FuelConsumed": 19668,
+            "datetime": "2023-08-15T14:56:12Z"
+        }
+    }
+]
