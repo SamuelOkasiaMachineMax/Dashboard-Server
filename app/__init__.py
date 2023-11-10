@@ -37,6 +37,9 @@ def create_app():
     from app.blueprints.FFTools.routes import FFTools_blueprint
     app.register_blueprint(FFTools_blueprint)
 
+    from app.blueprints.tools.routes import tools_blueprint
+    app.register_blueprint(tools_blueprint)
+
     BASE_DIR = os.path.abspath(os.path.dirname(__file__))  # Get the base directory of your application
     UPLOAD_FOLDER = os.path.join(BASE_DIR, 'uploads')  # Construct the absolute path for uploads folder
     if not os.path.exists(UPLOAD_FOLDER):
