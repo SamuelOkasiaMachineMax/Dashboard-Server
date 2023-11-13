@@ -18,10 +18,12 @@ def GeoFenceFormatterr():
         file_path = os.path.join(current_app.config['UPLOAD_FOLDER'], uploaded_file.filename)
         uploaded_file.save(file_path)
 
-        GeoFenceFormatter.main(file_path)
+        try:
+            GeoFenceFormatter.main(file_path)
+            return jsonify({'filename': uploaded_file.filename})
 
-    return jsonify({'filename': uploaded_file.filename})
-
+        except:
+            return jsonify({'filename': 'Error'})
 
 @tools_blueprint.route('/api/CustomerFilter/<value>', methods=['POST'])
 def CustomerFilterr(value):

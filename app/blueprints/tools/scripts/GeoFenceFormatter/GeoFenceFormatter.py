@@ -1,3 +1,5 @@
+import time
+
 import pandas as pd
 import re
 def main(file_path):
@@ -14,6 +16,7 @@ def main(file_path):
         df.iloc[:, 1] = df.iloc[:, 1].apply(transform_coordinates)
         print(df.iloc[0,:])
         df.drop(index=df.index[0], axis=0, inplace=True)
+
 
 
     df.to_csv(file_path, index=False)
