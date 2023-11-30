@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-def viewDataStatusReport(file_path):
+def viewDataStatusReport(file_path,value):
     pd.set_option('display.max_rows', None)
     pd.set_option('display.max_columns', None)
 
@@ -20,7 +20,8 @@ def viewDataStatusReport(file_path):
     with open(customerDStoCustomerSS) as file:
         customerDStoCustomerSSDict = json.load(file)
 
-    df = df[df['Customer'].isin(customerDStoCustomerSSDict)]
+    if value == "CSM":
+        df = df[df['Customer'].isin(customerDStoCustomerSSDict)]
     # Define sensor types
     sensor_types = ['FMT100', 'CELLULAR', 'LORA', 'FMC225', 'FMC230']
 
