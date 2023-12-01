@@ -23,7 +23,7 @@ def viewDataStatusReport(file_path,value):
     if value == "CSM":
         df = df[df['Customer'].isin(customerDStoCustomerSSDict)]
     # Define sensor types
-    sensor_types = ['FMT100', 'CELLULAR', 'LORA', 'FMC225', 'FMC230']
+    sensor_types = ['FMT100', 'CELLULAR', 'LORA', 'FMC225', 'FMC230','FMC125']
 
     # Initialize columns for each sensor type
     for sensor in sensor_types:

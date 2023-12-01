@@ -4,16 +4,17 @@ import os
 
 csm_blueprint = Blueprint('csm', __name__)
 
-@csm_blueprint.route('/csm/<value>', methods=['POST'])
-def download_file(value):
-    print(value)
+@csm_blueprint.route('/csm', methods=['POST'])
+def download_file():
     uploaded_file = request.files['file']
     if uploaded_file.filename != '':
         file_path = os.path.join(current_app.config['UPLOAD_FOLDER'], uploaded_file.filename)
         uploaded_file.save(file_path)
 
         try:
-            return jsonify(DataStatusReport.viewDataStatusReport(file_path,value))
+            return jsonify({'CSM':DataStatusReport.viewDataStatusReport(file_path,'CSM'),
+                            'FULL':DataStatusReport.viewDataStatusReport(file_path,'FULL')
+                            })
 
         except:
             return jsonify({'filename': 'Error'})
