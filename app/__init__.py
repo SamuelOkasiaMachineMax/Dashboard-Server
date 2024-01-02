@@ -3,6 +3,8 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_cors import CORS
 import os
+from google.cloud import bigquery
+
 
 db = SQLAlchemy()
 migrate = Migrate()
@@ -16,6 +18,11 @@ def create_app():
     # Initialize extensions with app
     db.init_app(app)
     migrate.init_app(app, db)
+
+    service_account_path_UK = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS_UK')
+    app.bigquery_client_UK = bigquery.Client.from_service_account_json(service_account_path_UK)
+
+
 
     from app.blueprints.data_endpoints.routes import data_blueprint
     from app.blueprints.user_endpoints.routes import user_blueprint
@@ -42,6 +49,9 @@ def create_app():
 
     from app.blueprints.csm.routes import csm_blueprint
     app.register_blueprint(csm_blueprint)
+
+    from app.blueprints.alerts.routes import alerts_blueprint
+    app.register_blueprint(alerts_blueprint)
 
     BASE_DIR = os.path.abspath(os.path.dirname(__file__))  # Get the base directory of your application
     UPLOAD_FOLDER = os.path.join(BASE_DIR, 'uploads')  # Construct the absolute path for uploads folder

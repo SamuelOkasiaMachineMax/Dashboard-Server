@@ -19,7 +19,25 @@ def download_file():
         except:
             return jsonify({'filename': 'Error'})
 
+@csm_blueprint.route('/get-bigquery-data', methods=['GET'])
+def get_bigquery_data():
+    bigquery_client = current_app.bigquery_client_UK
 
-    # print(DataStatusReport.viewDataStatusReport())
-    # return jsonify(DataStatusReport.viewDataStatusReport())
+    query = """
+       SELECT ID
+       FROM `machinemax-prod-635d.google_cloud_postgresql_public.roles`
+       WHERE NAME = 'internal' 
+       LIMIT 10
+       """
+    try:
+        # Run the query and get the results
+        query_job = bigquery_client.query(query)
+        results = query_job.result()  # Waits for the job to complete.
 
+        # Process the results
+        data = [{"ID": row.ID } for row in results]
+
+        # Return as JSON
+        return jsonify(data)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
