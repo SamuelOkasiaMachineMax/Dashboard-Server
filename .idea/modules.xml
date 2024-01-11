@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/dashboard-backend.iml" filepath="$PROJECT_DIR$/.idea/dashboard-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../secure_keys/.idea/secure_keys.iml" filepath="$PROJECT_DIR$/../secure_keys/.idea/secure_keys.iml" />
     </modules>
   </component>
 </project>

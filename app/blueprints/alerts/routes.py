@@ -22,6 +22,7 @@ def alerts():
 
     all_alerts = battery_alerts + voltage_alerts
 
+
     return jsonify({'alerts': all_alerts, 'battery_overview':battery_results, 'voltage_overview':voltage_results})
 
 
