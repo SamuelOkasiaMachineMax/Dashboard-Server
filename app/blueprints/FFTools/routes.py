@@ -55,7 +55,6 @@ WHERE
                  "read_at": row.read_at,
                  } for row in results]
 
-        print(data)
         latest_data_query = f"""
             SELECT 
                 external_voltage,
@@ -89,15 +88,19 @@ WHERE
                             for row in latest_location_query_job_results][0]
 
         gps_query = f"""
-               SELECT gps, tips, machine_id FROM `machinemax-prod-635d.google_cloud_postgresql_public.source_associations` WHERE source_id = '{data[0]['source_id']}' LIMIT 100
+               SELECT gps, tips, machine_id, accelerometer FROM `machinemax-prod-635d.google_cloud_postgresql_public.source_associations` WHERE source_id = '{data[0]['source_id']}' LIMIT 100
                """
         gps_query_job = bigquery_client.query(gps_query)
         gps_query_job_results = gps_query_job.result()
         gps = [{"Gps": row.gps,
                 "Tips": row.tips,
+                "Movement":row.accelerometer,
                 'Machine ID': row.machine_id,
                 'Machine Link': "https://machinemax.com/machines/"+row.machine_id+'?ref=activities'}
                 for row in gps_query_job_results][0]
+
+
+        machine_id = gps['Machine ID']
 
 
         devices_query = f"""
@@ -116,10 +119,19 @@ WHERE
         fotaWeb = [{"Model": row.model}
                for row in fotaWeb_query_job_results][0]
 
+        speed_query = f"""
+                      SELECT speed FROM `machinemax-prod-635d.google_cloud_postgresql_public.machine_latest_location` WHERE machine_id = '{machine_id}' LIMIT 1000
+                      """
+        speed_query_job = bigquery_client.query(speed_query)
+        speed_query_job_results = speed_query_job.result()
+        speed = [{"Speed": row.speed}
+                   for row in speed_query_job_results][0]
+
+
         print(latest_data)
         print(latest_location)
 
-        latest_data = {**latest_data, **latest_location, **gps, **devices, **fotaWeb}
+        latest_data = {**latest_data, **latest_location, **gps, **devices, **fotaWeb, **speed}
         print(latest_data)
         # Return as JSON
         return jsonify({'range_data':data, 'latest_data':latest_data})
