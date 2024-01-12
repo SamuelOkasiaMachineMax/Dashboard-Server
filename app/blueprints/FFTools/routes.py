@@ -100,6 +100,17 @@ WHERE
                 for row in gps_query_job_results][0]
 
 
+        gps_value = gps['Gps']
+        on_with_fix = latest_location['Latitude'] != None and latest_location['Longitude'] != None
+        if gps_value and on_with_fix:
+            GNSS_value = "On with Fix"
+        elif gps_value and not on_with_fix:
+            GNSS_value = "ON no fix"
+        else:
+            GNSS_value = "Not on and no fix"
+
+        GNSS = {"GNSS Status" : GNSS_value}
+
         machine_id = gps['Machine ID']
 
 
@@ -131,7 +142,8 @@ WHERE
         print(latest_data)
         print(latest_location)
 
-        latest_data = {**latest_data, **latest_location, **gps, **devices, **fotaWeb, **speed}
+        latest_data = {**latest_data, **latest_location, **gps, **GNSS, **fotaWeb, **speed}
+        # I removed devices for space
         print(latest_data)
         # Return as JSON
         return jsonify({'range_data':data, 'latest_data':latest_data})
