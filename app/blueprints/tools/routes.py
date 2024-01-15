@@ -72,11 +72,13 @@ def CustomerFilterr():
         data = json.loads(request.form['data'])
         value = data.get('value')
 
+        print(value)
+
         # Process the file with the provided values
         CustomerFilter.main(file_path, value)
         print("process complete")
 
         return jsonify({'filename': uploaded_file.filename})
     except Exception as e:
-        print(e)
+        print('Error ',e)
         return jsonify({"error": str(e)}), 500

@@ -1,7 +1,8 @@
 import pandas as pd
 def main(file_path, org_list):
-    print(type(org_list))
-    org_list = str(org_list).split(',')
+    # org_list = str(org_list).split(',')
+    print(org_list)
+
     try:
         df = pd.read_csv(file_path)
     except:
