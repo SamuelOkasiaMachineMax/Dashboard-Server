@@ -19,7 +19,7 @@ def login():
     except Exception as e:
         print(e)
     # Replace the next line with your authentication logic
-    if username == 'internalmmax' and password == 'internalmmax':
+    if username == 'internalmmax' and password == 'maxmachineinternal':
         print('nice')
         return jsonify({'message': 'Login successful'}), 200
     else:
