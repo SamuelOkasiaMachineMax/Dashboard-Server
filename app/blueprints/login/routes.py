@@ -12,14 +12,14 @@ def login():
     password = ''
 
     try:
-        username = request.json.get('internalmmax')
-        password = request.json.get('maxmachineinteral')
+        username = request.json.get('username')
+        password = request.json.get('password')
         print(username, password)
 
     except Exception as e:
         print(e)
     # Replace the next line with your authentication logic
-    if username == 'admin' and password == 'password':
+    if username == 'internalmmax' and password == 'internalmmax':
         print('nice')
         return jsonify({'message': 'Login successful'}), 200
     else:
