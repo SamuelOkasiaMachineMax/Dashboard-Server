@@ -360,8 +360,8 @@ def FFToolsPro(deveui, start_date, end_date):
         # print(latest_location)
 
         # latest_data = {**latest_data, **latest_location, **gps, **GNSS, **fotaWeb, **speed}
-        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        FFToolsFile = os.path.join(BASE_DIR, 'FFToolsPro.json')
+        # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        # FFToolsFile = os.path.join(BASE_DIR, 'FFToolsPro.json')
 
         # def test():
             # class DateTimeEncoder(JSONEncoder):
@@ -383,12 +383,12 @@ def FFToolsPro(deveui, start_date, end_date):
         print(e)
         return jsonify({"error": str(e)}), 500
 
-@FFTools_blueprint.route('/FFToolsProTest/<deveui>/<start_date>/<end_date>', methods=['POST'])
-def FFToolsProTest(deveui, start_date, end_date):
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    FFToolsFile = os.path.join(BASE_DIR, 'FFToolsPro.json')
-
-    with open(FFToolsFile, 'r') as json_file:
-        data = json.load(json_file)
-
-    return jsonify(data)
+# @FFTools_blueprint.route('/FFToolsProTest/<deveui>/<start_date>/<end_date>', methods=['POST'])
+# def FFToolsProTest(deveui, start_date, end_date):
+#     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#     FFToolsFile = os.path.join(BASE_DIR, 'FFToolsPro.json')
+#
+#     with open(FFToolsFile, 'r') as json_file:
+#         data = json.load(json_file)
+#
+#     return jsonify(data)
