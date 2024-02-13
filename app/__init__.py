@@ -15,6 +15,7 @@ def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dashboard.db'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     CORS(app)
+    # CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
     # Initialize extensions with app
     db.init_app(app)
     migrate.init_app(app, db)
@@ -52,6 +53,9 @@ def create_app():
 
     from app.blueprints.alerts.routes import alerts_blueprint
     app.register_blueprint(alerts_blueprint)
+
+    from app.blueprints.login.routes import login_blueprint
+    app.register_blueprint(login_blueprint)
 
     BASE_DIR = os.path.abspath(os.path.dirname(__file__))  # Get the base directory of your application
     UPLOAD_FOLDER = os.path.join(BASE_DIR, 'uploads')  # Construct the absolute path for uploads folder

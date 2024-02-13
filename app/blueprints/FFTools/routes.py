@@ -3,6 +3,8 @@ import json
 import os
 from datetime import datetime
 import requests
+from json import JSONEncoder
+
 FFTools_blueprint = Blueprint('FFTools', __name__)
 
 
@@ -147,11 +149,18 @@ WHERE
         latest_data = {**latest_data, **latest_location, **gps, **GNSS, **fotaWeb, **speed}
         # I removed devices for space
         print(latest_data)
-        # Return as JSON
+
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        FFToolsFile = os.path.join(BASE_DIR, 'FFToolsPro.json')
+
+        with open(FFToolsFile, 'w') as json_file:
+            json.dump({'range_data':data, 'latest_data':latest_data}, json_file)
+
         return jsonify({'range_data':data, 'latest_data':latest_data})
     except Exception as e:
         print(e)
         return jsonify({"error": str(e)}), 500
+
 
 
     # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -203,7 +212,7 @@ def strftime_to_unix_timestamp(strftime_date):
     return unix_timestamp
 @FFTools_blueprint.route('/FFToolsPro/<deveui>/<start_date>/<end_date>', methods=['POST'])
 def FFToolsPro(deveui, start_date, end_date):
-    print(deveui, start_date, end_date)
+    # print(deveui, start_date, end_date)
 
 
     #This is datetime when making requests to original FFTools API
@@ -223,7 +232,11 @@ def FFToolsPro(deveui, start_date, end_date):
         device_id = deveui
         device_type = "FMT100"
         url = f"{base_url}?device={device_id}&device_type={device_type}&start_ts={start_unix_timestamp}&end_ts={end_unix_timestamp}"
-        response = requests.get(url)
+        # print(url)
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.5000.0 Safari/537.36"
+        }
+        response = requests.get(url, headers=headers)
 
         # Check if the request was successful (status code 200)
         if response.status_code == 200:
@@ -236,16 +249,17 @@ def FFToolsPro(deveui, start_date, end_date):
                 properties = records[0]['properties']
                 data_row = {"movement": properties[0]['value'],
                             "gsm_signal": properties[1]['value'],
-                            "gnss_status": properties[3]['value'],
-                            "external_voltage": properties[4]['value'],
-                            "speed": properties[5]['value'],
+                            "gnss_status": properties[2]['value'],
+                            "external_voltage": properties[3]['value'],
+                            "speed": properties[4]['value'],
                             "read_at": result['rx_timestamp_string']
                             }
-                print(data_row)
+                # print(data_row)
                 data.append(data_row)
             # Print the response content (data retrieved from the URL)
-            print("Response Content:")
-            print(response.status_code)
+            # print("Response Content:")
+            # print(response.text)
+            # print(response.status_code)
 
         else:
             print(f"Request failed with status code {response.status_code}")
@@ -342,14 +356,39 @@ def FFToolsPro(deveui, start_date, end_date):
         speed = [{"Speed": row.speed}
                  for row in speed_query_job_results][0]
 
-        print(latest_data)
-        print(latest_location)
+        # print(latest_data)
+        # print(latest_location)
 
+        # latest_data = {**latest_data, **latest_location, **gps, **GNSS, **fotaWeb, **speed}
+        BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+        FFToolsFile = os.path.join(BASE_DIR, 'FFToolsPro.json')
+
+        # def test():
+            # class DateTimeEncoder(JSONEncoder):
+            #     def default(self, obj):
+            #         if isinstance(obj, datetime):
+            #             return obj.isoformat()
+            #         # Let the base class default method raise the TypeError
+            #         return super().default(obj)
+            #
+            # with open(FFToolsFile, 'w') as json_file:
+            #     json.dump({'range_data': data, 'latest_data': latest_data}, json_file, cls=DateTimeEncoder)
+            # I removed devices for space
+            # print(latest_data)
+            # Return as JSON
         latest_data = {**latest_data, **latest_location, **gps, **GNSS, **fotaWeb, **speed}
-        # I removed devices for space
-        print(latest_data)
-        # Return as JSON
+
         return jsonify({'range_data': data, 'latest_data': latest_data})
     except Exception as e:
         print(e)
         return jsonify({"error": str(e)}), 500
+
+@FFTools_blueprint.route('/FFToolsProTest/<deveui>/<start_date>/<end_date>', methods=['POST'])
+def FFToolsProTest(deveui, start_date, end_date):
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    FFToolsFile = os.path.join(BASE_DIR, 'FFToolsPro.json')
+
+    with open(FFToolsFile, 'r') as json_file:
+        data = json.load(json_file)
+
+    return jsonify(data)
